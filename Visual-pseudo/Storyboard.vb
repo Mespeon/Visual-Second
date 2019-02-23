@@ -25,4 +25,12 @@
     Private Sub btnChoiceB_Click(sender As Object, e As EventArgs) Handles btnChoiceB.Click
 
     End Sub
+
+    Private Sub pnlControls_Paint(sender As Object, e As PaintEventArgs) Handles pnlControls.Paint
+
+    End Sub
+
+    Private Sub Storyboard_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    End Sub
 End Class

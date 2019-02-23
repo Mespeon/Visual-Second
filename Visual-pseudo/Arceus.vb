@@ -1,4 +1,6 @@
 ﻿Module Arceus
+    Public ctr1
+    Public wordarr(250)
     'Swap overlays
     Public Sub swapOverlays(button, mode)
         If button = "btnStart" Then
@@ -73,4 +75,33 @@
     End Sub
 
     'Save progress
+
+    Public Sub wordorganizer()
+        Dim s As String
+        s = "SWAP FOR REAL DIALOGUES"
+        Storyboard.lblStory.Text = Nothing
+        Dim words
+        words = Split(s)
+        For i = 0 To UBound(words)
+            wordarr(ctr1) = words(i)
+            ctr1 += 1
+        Next
+        ctr1 = 0
+        Storyboard.worddisplayer.Start()
+        Storyboard.worddisplayer.Interval = Len(wordarr(ctr1)) * 100
+    End Sub
+
+    Public Sub worddisplay()
+        Storyboard.lblStory.Text += wordarr(ctr1) & " "
+        ctr1 += 1
+        If ctr1 >= wordarr.Count - 2 = False Then
+            If Len(wordarr(ctr1)) * 100 > 0 Then
+                Storyboard.worddisplayer.Interval = Len(wordarr(ctr1)) * 100
+            Else
+                Storyboard.worddisplayer.Stop()
+            End If
+        Else
+            Storyboard.worddisplayer.Stop()
+        End If
+    End Sub
 End Module
