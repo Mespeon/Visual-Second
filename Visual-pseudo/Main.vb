@@ -40,8 +40,6 @@
 
     Private Sub btnLoad_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
         Arceus.load()
-        text = "Text goes here..."
-        tmrCharPrint.Start()
 
     End Sub
 
@@ -59,8 +57,10 @@
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Me.Hide()
-
         Storyboard.Show()
+        text = "Text goes here... EDIT ME on Main.vb > Start Button"
+        tmrCharPrint.Start()
+
     End Sub
 
     Private Sub pnlLoadData_Paint(sender As Object, e As PaintEventArgs) Handles pnlLoadData.Paint
@@ -75,7 +75,7 @@
         c += 1
         If c < Len(str) Then
             retString = str.Substring(0, c + 1)
-            sentences.Text = retString
+            Storyboard.lblStory.Text = retString
         Else
             tmrCharPrint.Stop()
             c = 0

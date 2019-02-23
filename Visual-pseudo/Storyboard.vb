@@ -18,11 +18,4 @@
         Me.Close()
     End Sub
 
-    Private Sub btnChoiceA_Click(sender As Object, e As EventArgs) Handles btnChoiceA.Click
-
-    End Sub
-
-    Private Sub btnChoiceB_Click(sender As Object, e As EventArgs) Handles btnChoiceB.Click
-
-    End Sub
 End Class

@@ -23,15 +23,15 @@ Partial Class Storyboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.pnlStoryChoices = New System.Windows.Forms.Panel()
+        Me.btnChoiceB = New System.Windows.Forms.Button()
+        Me.btnChoiceA = New System.Windows.Forms.Button()
         Me.prgTimer = New System.Windows.Forms.ProgressBar()
         Me.pnlControls = New System.Windows.Forms.Panel()
-        Me.pnlStoryScrim = New System.Windows.Forms.Panel()
-        Me.btnMenu = New System.Windows.Forms.Button()
-        Me.btnReturn = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnReturn = New System.Windows.Forms.Button()
+        Me.btnMenu = New System.Windows.Forms.Button()
+        Me.pnlStoryScrim = New System.Windows.Forms.Panel()
         Me.pnlStoryboard = New System.Windows.Forms.Panel()
-        Me.btnChoiceA = New System.Windows.Forms.Button()
-        Me.btnChoiceB = New System.Windows.Forms.Button()
         Me.lblStory = New System.Windows.Forms.Label()
         Me.pnlStoryChoices.SuspendLayout()
         Me.pnlControls.SuspendLayout()
@@ -50,6 +50,38 @@ Partial Class Storyboard
         Me.pnlStoryChoices.Name = "pnlStoryChoices"
         Me.pnlStoryChoices.Size = New System.Drawing.Size(1000, 120)
         Me.pnlStoryChoices.TabIndex = 0
+        '
+        'btnChoiceB
+        '
+        Me.btnChoiceB.BackColor = System.Drawing.Color.Black
+        Me.btnChoiceB.Dock = System.Windows.Forms.DockStyle.Right
+        Me.btnChoiceB.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnChoiceB.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnChoiceB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnChoiceB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnChoiceB.ForeColor = System.Drawing.Color.White
+        Me.btnChoiceB.Location = New System.Drawing.Point(510, 8)
+        Me.btnChoiceB.Name = "btnChoiceB"
+        Me.btnChoiceB.Size = New System.Drawing.Size(490, 112)
+        Me.btnChoiceB.TabIndex = 3
+        Me.btnChoiceB.Text = "B"
+        Me.btnChoiceB.UseVisualStyleBackColor = False
+        '
+        'btnChoiceA
+        '
+        Me.btnChoiceA.BackColor = System.Drawing.Color.Black
+        Me.btnChoiceA.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btnChoiceA.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnChoiceA.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnChoiceA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnChoiceA.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnChoiceA.ForeColor = System.Drawing.Color.White
+        Me.btnChoiceA.Location = New System.Drawing.Point(0, 8)
+        Me.btnChoiceA.Name = "btnChoiceA"
+        Me.btnChoiceA.Size = New System.Drawing.Size(490, 112)
+        Me.btnChoiceA.TabIndex = 2
+        Me.btnChoiceA.Text = "A"
+        Me.btnChoiceA.UseVisualStyleBackColor = False
         '
         'prgTimer
         '
@@ -76,29 +108,19 @@ Partial Class Storyboard
         Me.pnlControls.Size = New System.Drawing.Size(1000, 50)
         Me.pnlControls.TabIndex = 1
         '
-        'pnlStoryScrim
+        'btnSave
         '
-        Me.pnlStoryScrim.BackColor = System.Drawing.Color.Transparent
-        Me.pnlStoryScrim.BackgroundImage = Global.Visual_pseudo.My.Resources.Resources.scrim
-        Me.pnlStoryScrim.Controls.Add(Me.pnlStoryboard)
-        Me.pnlStoryScrim.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlStoryScrim.Location = New System.Drawing.Point(0, 0)
-        Me.pnlStoryScrim.Name = "pnlStoryScrim"
-        Me.pnlStoryScrim.Size = New System.Drawing.Size(1000, 600)
-        Me.pnlStoryScrim.TabIndex = 2
-        '
-        'btnMenu
-        '
-        Me.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMenu.ForeColor = System.Drawing.Color.White
-        Me.btnMenu.Location = New System.Drawing.Point(13, 12)
-        Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(75, 32)
-        Me.btnMenu.TabIndex = 0
-        Me.btnMenu.Text = "Menu"
-        Me.btnMenu.UseVisualStyleBackColor = True
+        Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSave.ForeColor = System.Drawing.Color.White
+        Me.btnSave.Location = New System.Drawing.Point(290, 12)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(135, 32)
+        Me.btnSave.TabIndex = 2
+        Me.btnSave.Text = "Save Progress"
+        Me.btnSave.UseVisualStyleBackColor = True
+        Me.btnSave.Visible = False
         '
         'btnReturn
         '
@@ -114,19 +136,29 @@ Partial Class Storyboard
         Me.btnReturn.UseVisualStyleBackColor = True
         Me.btnReturn.Visible = False
         '
-        'btnSave
+        'btnMenu
         '
-        Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSave.ForeColor = System.Drawing.Color.White
-        Me.btnSave.Location = New System.Drawing.Point(290, 12)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(135, 32)
-        Me.btnSave.TabIndex = 2
-        Me.btnSave.Text = "Save Progress"
-        Me.btnSave.UseVisualStyleBackColor = True
-        Me.btnSave.Visible = False
+        Me.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMenu.ForeColor = System.Drawing.Color.White
+        Me.btnMenu.Location = New System.Drawing.Point(13, 12)
+        Me.btnMenu.Name = "btnMenu"
+        Me.btnMenu.Size = New System.Drawing.Size(75, 32)
+        Me.btnMenu.TabIndex = 0
+        Me.btnMenu.Text = "Menu"
+        Me.btnMenu.UseVisualStyleBackColor = True
+        '
+        'pnlStoryScrim
+        '
+        Me.pnlStoryScrim.BackColor = System.Drawing.Color.Transparent
+        Me.pnlStoryScrim.BackgroundImage = Global.Visual_pseudo.My.Resources.Resources.scrim
+        Me.pnlStoryScrim.Controls.Add(Me.pnlStoryboard)
+        Me.pnlStoryScrim.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlStoryScrim.Location = New System.Drawing.Point(0, 0)
+        Me.pnlStoryScrim.Name = "pnlStoryScrim"
+        Me.pnlStoryScrim.Size = New System.Drawing.Size(1000, 600)
+        Me.pnlStoryScrim.TabIndex = 2
         '
         'pnlStoryboard
         '
@@ -137,48 +169,15 @@ Partial Class Storyboard
         Me.pnlStoryboard.Size = New System.Drawing.Size(1000, 600)
         Me.pnlStoryboard.TabIndex = 0
         '
-        'btnChoiceA
-        '
-        Me.btnChoiceA.BackColor = System.Drawing.Color.Black
-        Me.btnChoiceA.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnChoiceA.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnChoiceA.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btnChoiceA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.btnChoiceA.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnChoiceA.ForeColor = System.Drawing.Color.White
-        Me.btnChoiceA.Location = New System.Drawing.Point(0, 8)
-        Me.btnChoiceA.Name = "btnChoiceA"
-        Me.btnChoiceA.Size = New System.Drawing.Size(490, 112)
-        Me.btnChoiceA.TabIndex = 2
-        Me.btnChoiceA.Text = "A"
-        Me.btnChoiceA.UseVisualStyleBackColor = False
-        '
-        'btnChoiceB
-        '
-        Me.btnChoiceB.BackColor = System.Drawing.Color.Black
-        Me.btnChoiceB.Dock = System.Windows.Forms.DockStyle.Right
-        Me.btnChoiceB.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnChoiceB.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btnChoiceB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.btnChoiceB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnChoiceB.ForeColor = System.Drawing.Color.White
-        Me.btnChoiceB.Location = New System.Drawing.Point(510, 8)
-        Me.btnChoiceB.Name = "btnChoiceB"
-        Me.btnChoiceB.Size = New System.Drawing.Size(490, 112)
-        Me.btnChoiceB.TabIndex = 3
-        Me.btnChoiceB.Text = "B"
-        Me.btnChoiceB.UseVisualStyleBackColor = False
-        '
         'lblStory
         '
-        Me.lblStory.Font = New System.Drawing.Font("NewsGoth BT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStory.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblStory.ForeColor = System.Drawing.Color.White
-        Me.lblStory.Location = New System.Drawing.Point(150, 135)
+        Me.lblStory.Location = New System.Drawing.Point(140, 119)
         Me.lblStory.Name = "lblStory"
-        Me.lblStory.Size = New System.Drawing.Size(700, 200)
+        Me.lblStory.Size = New System.Drawing.Size(762, 256)
         Me.lblStory.TabIndex = 0
-        Me.lblStory.Text = "Story goes here."
-        Me.lblStory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblStory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Storyboard
         '
@@ -189,7 +188,7 @@ Partial Class Storyboard
         Me.Controls.Add(Me.pnlControls)
         Me.Controls.Add(Me.pnlStoryChoices)
         Me.Controls.Add(Me.pnlStoryScrim)
-        Me.Font = New System.Drawing.Font("NewsGoth BT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MinimizeBox = False
