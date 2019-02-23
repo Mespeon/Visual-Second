@@ -56,7 +56,10 @@
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Me.Hide()
-        Storyboard.Show()
+        Introtext.Show()
+        Introductory.Show()
+        Introtext.TopMost = True
+        '  Storyboard.Show()
     End Sub
 
     Private Sub pnlLoadData_Paint(sender As Object, e As PaintEventArgs) Handles pnlLoadData.Paint

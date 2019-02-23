@@ -77,6 +77,18 @@
     <Compile Include="Arceus.vb" />
     <Compile Include="Colors.vb" />
     <Compile Include="Foresight.vb" />
+    <Compile Include="Introductory.Designer.vb">
+      <DependentUpon>Introductory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Introductory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introtext.Designer.vb">
+      <DependentUpon>Introtext.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Introtext.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +131,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Introductory.resx">
+      <DependentUpon>Introductory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introtext.resx">
+      <DependentUpon>Introtext.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
