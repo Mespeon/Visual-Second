@@ -1,6 +1,9 @@
 ﻿Public Class Main
     Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
-        End
+        TitleSplash.ending = 1
+        TitleSplash.ctr = 3
+        Me.Hide()
+        TitleSplash.Show()
     End Sub
 
     Private Sub btnQuit_MouseEnter(sender As Object, e As EventArgs) Handles btnQuit.MouseEnter
