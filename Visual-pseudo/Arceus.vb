@@ -66,4 +66,11 @@
         'Reenable control panel
         ctrlPanelToggle(1)
     End Sub
+
+    'Progress story
+    Public Sub forwardStory()
+
+    End Sub
+
+    'Save progress
 End Module
