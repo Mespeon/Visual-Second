@@ -1,0 +1,93 @@
+1,0,1,Sample text,system,none,none
+2,0,2,Sample text,system,none,none
+3,0,3,"Oh yes! It's 2019! For college students everywhere, a new year puts them closer to that sweet graduation dream.",system,none,none
+4,0,4,"After a wild 2018,",system,none,none
+5,0,5,goes through life as usual.,system,none,none
+6,0,6,2019 will just be another year.,user,none,none
+7,0,7,Might as well go around.,user,none,none
+8,1,1,"Hmm, today's a little unexciting. Let's see if my friends are up to something.",user,none,none
+9,1,2,checks phone.,user,none,none
+10,1,3,"Kevin's out to do some sort of physical activity, Marcus is inviting me to come over his college dormitory. Typical stuff…",user,none,none
+11,1,4,* yawns * Guess I'll just go to sleep.,user,none,none
+12,1,5,Somebody knocked on the door.,system,none,none
+13,1,6,Who might it be?,user,none,none
+14,1,7,HEY! We will be playing basketball today. Want to join?,Marcus,Yes,No
+15,1,8,"Physical activities are really important for the body, especially if you are a college student.",system,none,none
+16,1,9,"Since we have no classes during Saturdays, are you interested to join us every Saturday morning for some activities? They're free and fun!",Marcus,Sign me up!,"Meh, not interested."
+17,1,10,Weekly physical activities are essential for maintaining a healthy body.,system,none,none
+18,1,11,"Saturday arrives, and you arrived at the court 15 minutes before the game starts.",system,Warm up for a bit,Idle around
+19,1,12,Warming up can be of great help!,system,none,none
+20,1,13,"Congratulations! By doing regular physical activities, you soon achieved physical wellness.",system,none,none
+21,2,1,"Enjoying the Saturday games, you soon joined a collegiate league and got into the championships.",system,none,none
+22,2,2,"With 12 seconds remaining and your team behind by 2 points 112-110, a teammate passed the ball to you.",system,none,none
+23,2,3,Time is running out. What do you do?,system,Do a 3-pointer,Look around for an open man
+24,2,4,You took the shot behind the 3-point line. You missed.,system,none,none
+25,2,5,5 seconds left on the clock. You saw your teammates looking at you angrily. They are blaming you for the loss.,system,none,none
+26,2,6,But you just did it to help the team.,system,none,none
+27,2,7,"After the game, you were confronted by your teammates. What will you do?",system,Apologize to the team.,Tell them you just tried to help the team.
+28,2,8,You dribbled the ball but it got stolen. You saw your teammates looking at you angrily.,system,none,none
+29,2,9,But you just did it to help the team.,system,none,none
+30,2,10,"After the game, you were confronted by your teammates. What will you do?",system,Apologize to the team.,Tell them you just tried to help the team.
+31,2,11,You said sorry to the whole team and admitted your mistake.,system,none,none
+32,2,12,But your teammates still criticized you and your actions even though you already apologized.,system,none,none
+33,2,13,You felt hurt by what they did. What will you do?,system,Argue,Stay calm and accept their criticism.
+34,2,14,You stayed calm and composed. You accepted that you made mistakes and accepted everyone's criticisms.,system,none,none
+35,2,15,"You and your team stuck together, and because of the criticisms, you improved and became the team's MVP.",system,none,none
+36,2,16,You told them your point and everyone heated up. Criticisms were painful. What would you do?,system,Keep arguing.,Stay calm and accept their criticism.
+37,2,17,You also heated up. You argued it wasn't your mistake. One teammate was so angry he challenged you to a fist fight. What would you do?,system,Bring it on!,Calm down and apologize.
+38,2,18,"Due to your teammates immense height, you got battered really bad.",system,none,none
+39,2,19,You were hospitalized and never got to play basketball again.,system,none,none
+40,2,20,You stayed calm and composed. You accepted that you made mistakes and accepted everyone's criticisms.,system,none,none
+41,2,21,"You and your team stuck together, and because of the criticisms, you improved and became the team's MVP.",system,none,none
+42,3,1,"Days passed. You got a call from Patrick, an old friend from high school.",system,none,none
+43,3,2,You haven't seen him in a while because he went overseas to study for college.,system,none,none
+44,3,3,Patrick invites you to come to his homecoming celebration. What will you say?,system,Of course I'll go!,"Sorry, I can't make it."
+45,3,4,Patrick was so happy when he knew you'll come. ,system,none,none
+46,3,5,"The day was nearing but a few days before you got into trouble, totally ruining your mood.",system,none,none
+47,3,6,You remembered your promise to Patrick. What will you do?,system,Still go to the party.,"Nope, not going."
+48,3,7,"You got to the venue and saw Patrick's happy face. You exchanged greetings with him. He asked what you do for a living, but you are actually jobless. What will you do?",system,Get the hell out of there.,Admit that you don't have a job yet.
+49,3,8,"You suddenly walked out after the question, and Patrick never talked to you again.",system,none,none
+50,3,9,Patrick understood your situation and offered you a job overseas.,system,none,none
+51,3,10,Patrick is calling you on the phone. What will you do?,system,Answer the damned phone.,Ignore the call.
+52,3,11,Patrick got mad and asked why you broke your promise. What will you say?,system,I had an emergency a while ago.,I just don't want to see you.
+53,3,12,Patrick felt sad you can't come and asked why. What will you say?,system,I have something important to do that day.,I'm just plain lazy.
+54,3,13,Patrick understood and asked if you have any spare time so you guys could still spend some time together. What will you say?,system,"Sure, let's go next time.",I just don't want to see you.
+55,3,14,Patrick got mad and never talked to you again.,system,none,none
+56,4,1,You're thinking how hard it is to be a college student.,system,none,none
+57,4,2,"Suddenly, you remembered something your professor told you.",system,none,none
+58,4,3,"He suggested that you take a quiz. It is completely optional and won't affect your current standing, but you might learn something new.",system,"Hell yeah, let's get that quiz!","Meh, not interested."
+59,4,4,"It may be optional, but the educational value is still there.",system,none,none
+60,4,5,"Question 1: what insect inspired the term ""computer bug""?",system,"Meh, not interested.",LET ME KNOW!
+61,4,6,The answer is a moth!,system,none,none
+62,4,7,Question 2: 30 * 13 - 60,system,330,360
+63,4,8,Question 3: What does SSD stand for?,system,Solid State Drive,Solid Slate Drive
+64,4,9,Question 4: Who created C++?,system,Steve Wozniak,Bjarne Stroustrup
+65,4,10,Are you interested in viewing your results?,system,Hell yes!,"Meh, not interested."
+66,4,11,"Your answers might be wrong, but reviewing them could be a great decision to learn.",,,
+67,5,1,A mysterious man talked to you about religion and his beliefs. He looked like he wanted to share.,system,none,none
+68,5,2,Should you listen to him?,system,"Nope, nope, nope.",Yes.
+69,5,3,You woke up and realized you were dreaming.,system,none,none
+70,5,4,It turned out his beliefs are directly opposite to what you believe in.,system,none,none
+71,5,5,Should you be tolerant and keep an open mind about the man's beliefs?,system,PROVE HIM WRONG!,Listen and acknowledge the difference.
+72,5,6,Listening to other people could be a great way to connect spiritually.,system,Wake up,none
+73,5,7,"Realizing that, you asked yourself,",system,none,none
+74,5,8,"""Am I accepting the views of others, and does my values guide my decisions and actions?""",system,Be stubborn and do what you must.,"Yes, this is a smart way of being spiritually well."
+75,5,9,Stubborness destroys good advice.,system,Wake up,none
+76,5,10,"Is it better to live each day in a way that is consistent with our values and beliefs than to do otherwise,",system,none,none
+77,5,11,and do what the world tells you what to do and feel untrue to yourself?,system,Be true to yourself!,Conform with the world and do things as they are!
+78,5,12,The world is a prison.,system,Wake up,none
+79,5,13,Congratulations! You are a free bird!,system,none,none
+80,6,1,"After that crazy dream, you woke up and remembered that BlueHacks 2019 is today!",system,none,none
+81,6,2,But there is also a special event for the game that you are playing.,system,none,none
+82,6,3,"Enticed by both, you're having a hard time picking where to go. Which one will you pick?",system,BlueHacks 2019,GAME ON!
+83,6,4,Good prioritization in life could lead you to a better career.,system,Ending,none
+84,6,5,"You and your team joined BlueHacks, and started developing software together.",system,none,none
+85,6,6,"After finishing your tasks, you noticed your teammate having a hard time on his tasks. What will you do?",system,"Help him out, of course.",I G N O R E
+86,6,7,"Teamwork makes the dream work, and you just failed it.",system,Ending,none
+87,6,8,"Ten hours into the event and you are mentally exhausted. There are still lots of work to do, but there are plenty of time. What would you do?",system,"Rest now, resume later.",PUSH ON! DON'T STOP!
+88,6,9,"There is nothing wrong with pushing yourself to the limits,",system,none,none
+89,6,10,"but balancing work, leisure, and rest are necessary for occupational wellness.",system,Ending,none
+90,6,11,You won at BlueHacks and you fell in love with developing web apps. But Android development seems to make a lot more money.,system,none,none
+91,6,12,What would you choose?,system,Do what you love.,ALL FOR THE MONEH!
+92,6,13,Money can't buy happiness.,system,Ending,none
+93,6,14,"If you do what you love, money will follow.",system,Ending,none

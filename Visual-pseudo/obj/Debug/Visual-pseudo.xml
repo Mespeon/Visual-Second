@@ -37,5 +37,10 @@ Visual-pseudo
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Visual_pseudo.My.Resources.Resources.Xomu_Cover_Image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

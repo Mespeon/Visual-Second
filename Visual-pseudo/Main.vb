@@ -1,4 +1,6 @@
-﻿Public Class Main
+﻿Imports System.Data.SQLite
+
+Public Class Main
     Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         End
     End Sub
@@ -52,7 +54,10 @@
     End Sub
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
-        Me.Hide()
-        Storyboard.Show()
+        progressCheck()
+    End Sub
+
+    Private Sub btnPreferences_Click(sender As Object, e As EventArgs) Handles btnPreferences.Click
+
     End Sub
 End Class

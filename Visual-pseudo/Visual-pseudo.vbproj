@@ -50,6 +50,9 @@
     <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\..\Downloads\SQLite-1.0.58.0-binaries\bin\System.Data.SQLite.DLL</HintPath>
+    </Reference>
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -110,6 +113,7 @@
     <Compile Include="Storyboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Storyteller.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Main.resx">
@@ -148,6 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\scrim-w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xomu Cover Image.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
