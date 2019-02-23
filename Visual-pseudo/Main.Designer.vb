@@ -29,8 +29,8 @@ Partial Class Main
         Me.btnStart = New System.Windows.Forms.Button()
         Me.pnlLeftScrim = New System.Windows.Forms.Panel()
         Me.pnlLoadData = New System.Windows.Forms.Panel()
-        Me.lblLoadHeader = New System.Windows.Forms.Label()
         Me.btnLoadClose = New System.Windows.Forms.Button()
+        Me.lblLoadHeader = New System.Windows.Forms.Label()
         Me.pnlControls.SuspendLayout()
         Me.pnlLeftScrim.SuspendLayout()
         Me.pnlLoadData.SuspendLayout()
@@ -137,19 +137,6 @@ Partial Class Main
         Me.pnlLoadData.TabIndex = 0
         Me.pnlLoadData.Visible = False
         '
-        'lblLoadHeader
-        '
-        Me.lblLoadHeader.AutoSize = True
-        Me.lblLoadHeader.Font = New System.Drawing.Font("Novecento sans wide Book", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoadHeader.ForeColor = System.Drawing.Color.White
-        Me.lblLoadHeader.Location = New System.Drawing.Point(50, 50)
-        Me.lblLoadHeader.Margin = New System.Windows.Forms.Padding(50)
-        Me.lblLoadHeader.Name = "lblLoadHeader"
-        Me.lblLoadHeader.Size = New System.Drawing.Size(188, 42)
-        Me.lblLoadHeader.TabIndex = 0
-        Me.lblLoadHeader.Text = "load data"
-        Me.lblLoadHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'btnLoadClose
         '
         Me.btnLoadClose.Cursor = System.Windows.Forms.Cursors.Hand
@@ -166,6 +153,19 @@ Partial Class Main
         Me.btnLoadClose.Text = "Close"
         Me.btnLoadClose.UseVisualStyleBackColor = True
         '
+        'lblLoadHeader
+        '
+        Me.lblLoadHeader.AutoSize = True
+        Me.lblLoadHeader.Font = New System.Drawing.Font("Novecento sans wide Book", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoadHeader.ForeColor = System.Drawing.Color.White
+        Me.lblLoadHeader.Location = New System.Drawing.Point(50, 50)
+        Me.lblLoadHeader.Margin = New System.Windows.Forms.Padding(50)
+        Me.lblLoadHeader.Name = "lblLoadHeader"
+        Me.lblLoadHeader.Size = New System.Drawing.Size(188, 42)
+        Me.lblLoadHeader.TabIndex = 0
+        Me.lblLoadHeader.Text = "load data"
+        Me.lblLoadHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Main
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -180,7 +180,7 @@ Partial Class Main
         Me.Name = "Main"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Main"
         Me.pnlControls.ResumeLayout(False)
         Me.pnlLeftScrim.ResumeLayout(False)
         Me.pnlLoadData.ResumeLayout(False)

@@ -9,3 +9,4 @@ c:\users\mark nolledo\documents\visual studio 2015\Projects\Visual-pseudo\Visual
 c:\users\mark nolledo\documents\visual studio 2015\Projects\Visual-pseudo\Visual-pseudo\bin\Debug\Visual-pseudo.xml
 c:\users\mark nolledo\documents\visual studio 2015\Projects\Visual-pseudo\Visual-pseudo\obj\Debug\Visual-pseudo.exe
 c:\users\mark nolledo\documents\visual studio 2015\Projects\Visual-pseudo\Visual-pseudo\obj\Debug\Visual-pseudo.pdb
+C:\Users\Mark Nolledo\Documents\Visual Studio 2015\Projects\Visual-pseudo\Visual-pseudo\obj\Debug\Visual_pseudo.Storyboard.resources

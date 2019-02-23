@@ -50,4 +50,9 @@
     Private Sub btnLoadClose_MouseLeave(sender As Object, e As EventArgs) Handles btnLoadClose.MouseLeave
         swapOverlays("btnLoadClose", "leave")
     End Sub
+
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+        Me.Hide()
+        Storyboard.Show()
+    End Sub
 End Class
