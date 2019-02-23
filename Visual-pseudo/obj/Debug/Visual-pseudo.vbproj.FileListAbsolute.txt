@@ -12,3 +12,17 @@ c:\users\mark nolledo\documents\visual studio 2015\Projects\Visual-pseudo\Visual
 C:\Users\Mark Nolledo\Documents\Visual Studio 2015\Projects\Visual-pseudo\Visual-pseudo\obj\Debug\Visual_pseudo.Storyboard.resources
 C:\Users\Mark Nolledo\Documents\Visual Studio 2015\Projects\Visual-pseudo\Visual-pseudo\bin\Debug\MySql.Data.dll
 C:\Users\Mark Nolledo\Documents\Visual Studio 2015\Projects\Visual-pseudo\Visual-pseudo\obj\Debug\Visual_pseudo.Splash.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\bin\Debug\Visual-pseudo.exe.config
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual-pseudo.exe
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual-pseudo.xml
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual-pseudo.pdb
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\bin\Debug\Visual-pseudo.exe
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\bin\Debug\Visual-pseudo.pdb
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\bin\Debug\Visual-pseudo.xml
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual-pseudo.vbprojResolveAssemblyReference.cache
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual_pseudo.Main.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual_pseudo.Resources.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual_pseudo.Splash.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual_pseudo.Storyboard.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual_pseudo.TitleSplash.resources
+C:\Users\Christian Refe\Desktop\Visual-Second\Visual-pseudo\obj\Debug\Visual-pseudo.vbproj.GenerateResource.Cache

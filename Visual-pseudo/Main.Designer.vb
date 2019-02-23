@@ -156,12 +156,12 @@ Partial Class Main
         'lblLoadHeader
         '
         Me.lblLoadHeader.AutoSize = True
-        Me.lblLoadHeader.Font = New System.Drawing.Font("Novecento sans wide Book", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoadHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLoadHeader.ForeColor = System.Drawing.Color.White
         Me.lblLoadHeader.Location = New System.Drawing.Point(50, 50)
         Me.lblLoadHeader.Margin = New System.Windows.Forms.Padding(50)
         Me.lblLoadHeader.Name = "lblLoadHeader"
-        Me.lblLoadHeader.Size = New System.Drawing.Size(188, 42)
+        Me.lblLoadHeader.Size = New System.Drawing.Size(167, 39)
         Me.lblLoadHeader.TabIndex = 0
         Me.lblLoadHeader.Text = "load data"
         Me.lblLoadHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -175,7 +175,7 @@ Partial Class Main
         Me.ControlBox = False
         Me.Controls.Add(Me.pnlLeftScrim)
         Me.Controls.Add(Me.pnlControls)
-        Me.Font = New System.Drawing.Font("NewsGoth BT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Main"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide

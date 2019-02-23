@@ -55,4 +55,8 @@
         Me.Hide()
         Storyboard.Show()
     End Sub
+
+    Private Sub pnlLoadData_Paint(sender As Object, e As PaintEventArgs) Handles pnlLoadData.Paint
+
+    End Sub
 End Class
