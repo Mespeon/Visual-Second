@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class Main
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.pnlControls = New System.Windows.Forms.Panel()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.btnPreferences = New System.Windows.Forms.Button()
@@ -29,8 +30,10 @@ Partial Class Main
         Me.btnStart = New System.Windows.Forms.Button()
         Me.pnlLeftScrim = New System.Windows.Forms.Panel()
         Me.pnlLoadData = New System.Windows.Forms.Panel()
+        Me.sentences = New System.Windows.Forms.Label()
         Me.btnLoadClose = New System.Windows.Forms.Button()
         Me.lblLoadHeader = New System.Windows.Forms.Label()
+        Me.tmrCharPrint = New System.Windows.Forms.Timer(Me.components)
         Me.pnlControls.SuspendLayout()
         Me.pnlLeftScrim.SuspendLayout()
         Me.pnlLoadData.SuspendLayout()
@@ -127,6 +130,7 @@ Partial Class Main
         'pnlLoadData
         '
         Me.pnlLoadData.AutoScroll = True
+        Me.pnlLoadData.Controls.Add(Me.sentences)
         Me.pnlLoadData.Controls.Add(Me.btnLoadClose)
         Me.pnlLoadData.Controls.Add(Me.lblLoadHeader)
         Me.pnlLoadData.Dock = System.Windows.Forms.DockStyle.Fill
@@ -136,6 +140,15 @@ Partial Class Main
         Me.pnlLoadData.Size = New System.Drawing.Size(713, 600)
         Me.pnlLoadData.TabIndex = 0
         Me.pnlLoadData.Visible = False
+        '
+        'sentences
+        '
+        Me.sentences.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sentences.ForeColor = System.Drawing.Color.White
+        Me.sentences.Location = New System.Drawing.Point(24, 193)
+        Me.sentences.Name = "sentences"
+        Me.sentences.Size = New System.Drawing.Size(667, 371)
+        Me.sentences.TabIndex = 3
         '
         'btnLoadClose
         '
@@ -156,15 +169,20 @@ Partial Class Main
         'lblLoadHeader
         '
         Me.lblLoadHeader.AutoSize = True
-        Me.lblLoadHeader.Font = New System.Drawing.Font("Novecento sans wide Book", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoadHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLoadHeader.ForeColor = System.Drawing.Color.White
         Me.lblLoadHeader.Location = New System.Drawing.Point(50, 50)
         Me.lblLoadHeader.Margin = New System.Windows.Forms.Padding(50)
         Me.lblLoadHeader.Name = "lblLoadHeader"
-        Me.lblLoadHeader.Size = New System.Drawing.Size(188, 42)
+        Me.lblLoadHeader.Size = New System.Drawing.Size(167, 39)
         Me.lblLoadHeader.TabIndex = 0
         Me.lblLoadHeader.Text = "load data"
         Me.lblLoadHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'tmrCharPrint
+        '
+        Me.tmrCharPrint.Enabled = True
+        Me.tmrCharPrint.Interval = 30
         '
         'Main
         '
@@ -175,12 +193,11 @@ Partial Class Main
         Me.ControlBox = False
         Me.Controls.Add(Me.pnlLeftScrim)
         Me.Controls.Add(Me.pnlControls)
-        Me.Font = New System.Drawing.Font("NewsGoth BT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Main"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Main"
         Me.pnlControls.ResumeLayout(False)
         Me.pnlLeftScrim.ResumeLayout(False)
         Me.pnlLoadData.ResumeLayout(False)
@@ -198,4 +215,6 @@ Partial Class Main
     Friend WithEvents pnlLoadData As Panel
     Friend WithEvents lblLoadHeader As Label
     Friend WithEvents btnLoadClose As Button
+    Friend WithEvents tmrCharPrint As Timer
+    Friend WithEvents sentences As Label
 End Class

@@ -1,4 +1,7 @@
 ﻿Public Class Main
+
+    Dim c As Integer
+    Dim text As String
     Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         End
     End Sub
@@ -37,6 +40,9 @@
 
     Private Sub btnLoad_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
         Arceus.load()
+        text = "Text goes here..."
+        tmrCharPrint.Start()
+
     End Sub
 
     Private Sub btnLoadClose_Click(sender As Object, e As EventArgs) Handles btnLoadClose.Click
@@ -53,6 +59,28 @@
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Me.Hide()
+
         Storyboard.Show()
     End Sub
+
+    Private Sub pnlLoadData_Paint(sender As Object, e As PaintEventArgs) Handles pnlLoadData.Paint
+
+    End Sub
+
+    Private Sub tmrCharPrint_Tick(sender As Object, e As EventArgs) Handles tmrCharPrint.Tick
+        printText(text)
+    End Sub
+    Sub printText(str)
+        Dim retString As String
+        c += 1
+        If c < Len(str) Then
+            retString = str.Substring(0, c + 1)
+            sentences.Text = retString
+        Else
+            tmrCharPrint.Stop()
+            c = 0
+        End If
+
+    End Sub
+
 End Class
